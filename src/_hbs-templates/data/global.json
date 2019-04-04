@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "links": {
+    "home": "/",
+    "page_1": "/page"
+  },
+  "REFhome": [
+    "Can include <b>HTML</b> <i>markup</i>",
+    "Example two"
+  ]
+}

@@ -1,0 +1,44 @@
+// Colors
+$mint-grn: #87C6BD;
+$gold: #D28C0E;
+$navy-blue: #07244E;
+$blush: #F4DCD2;
+$cream: #F0EAD6;
+$living-coral: #FA7268;
+$white: #FFF;
+$rust: #D5725C;
+$orange: #F97E52;
+$forest: #346B4E;
+$lt-mint: #D5F4E1;
+$dove-gry: #F3F3F3;
+
+// FONTS
+
+$font-header: 'Abril Fatface', Helvetica, Arial, serif;
+$font-family: 'Open Sans Condensed', Helvetica, Arial, serif;
+
+//Media Breakpts
+
+// Small ≥576px
+@mixin breakpoint-sm() {
+  @media only screen and (max-width: map-get($grid-breakpoints, "sm")) { @content; }
+}
+
+// Medium ≥768px
+@mixin breakpoint-md() {
+  @media only screen and (max-width: map-get($grid-breakpoints, "md")) { @content; }
+}
+
+@mixin breakpoint-md-up() {
+  @media only screen and (min-width: map-get($grid-breakpoints, "md")) { @content; }
+}
+
+// Large ≥992px
+@mixin breakpoint-lg() {
+  @media only screen and (max-width: map-get($grid-breakpoints, "lg")) { @content; }
+}
+
+// Extra large ≥1200px
+@mixin breakpoint-xl() {
+  @media only screen and (max-width: map-get($grid-breakpoints, "xl")) { @content; }
+}

@@ -1,0 +1,62 @@
+{
+  "jsLintIgnore": "./src/_assets/js/vendors/**",
+  "jsSrc": "./src/_assets/js/**/*.js",
+  "jsComponents": {
+    "vendors": {
+      "process": false,
+      "filelist":[
+        "./src/_assets/js/vendors/jquery-3.3.1.min.js",
+        "./src/_assets/js/vendors/*.js"
+      ],
+      "filename": "vendors.js"
+    },
+    "theme": {
+      "process": true,
+      "filelist":[
+        "./src/_assets/js/*.js"
+      ],
+      "filename":"main.js"
+    }
+  },
+  "src": {
+    "sassSrc": "./src/_assets/scss/**/*.scss",
+    "imgSrc": "./src/_assets/img/**",
+    "fontSrc": "./src/_assets/fonts/**",
+    "jsonSrc": "./src/_assets/json/**"
+  },
+  "handlebars": {
+    "hbsSrc": "./src/**/*.html",
+    "hbsComponents": "./src/**/**/*.{hbs,js,json}",
+    "hbsTemplates": "./src/_hbs-templates",
+    "hbsData": "./src/_hbs-templates/data/**/*.{js,json}",
+    "hbsDecorators": "",
+    "hbsHelpers": "./src/_hbs-templates/helpers/*.js",
+    "hbsPartials": "./src/_hbs-templates/partials/*.hbs"
+  },
+  "build": {
+    "root": "./build/",
+    "css": "./build/_assets/css",
+    "cssSrc": "./build/_assets/css/*.css",
+    "cssMapSrc": "./build/_assets/css/*.map",
+    "img": "./build/_assets/img",
+    "imgSrc": "./build/_assets/img/**",
+    "font": "./build/_assets/fonts",
+    "js": "./build/_assets/js",
+    "jsSrc": "./build/_assets/js/*.js",
+    "jsMapSrc": "./build/_assets/js/*.map",
+    "htmlSrc": "./build/**/*.html",
+    "json": "./build/_assets/json/",
+    "assetsSrc": [
+      "./build/**",
+      "./build/.htaccess",
+      "!./build/_assets/css/*.map",
+      "!./build/_assets/js/*.map"
+    ]
+  },
+  "dist": {
+    "root": "./public/",
+    "css": "./public/_assets/css",
+    "js": "./public/_assets/js",
+    "img": "./public/_assets/img"
+  }
+}

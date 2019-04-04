@@ -1,0 +1,5 @@
+# For domain:
+
+User-agent: *
+
+Sitemap: /sitemap.xml

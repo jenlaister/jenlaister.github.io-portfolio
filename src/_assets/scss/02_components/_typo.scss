@@ -1,0 +1,22 @@
+h1 {
+  font-style: $font-header, Arial, Helvetica, sans-serif !important;
+}
+
+p {
+  font-family: $font-family, Helvetica ,Arial, sans-serif;
+  font-size: 21px;
+  margin: 0;
+}
+
+strong, .bold {
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}

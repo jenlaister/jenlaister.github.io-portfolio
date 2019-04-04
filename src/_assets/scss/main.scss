@@ -1,0 +1,16 @@
+/// Can use sass glob imports
+/// @example - @import "vars/**/*.scss";
+/// @link https://www.npmjs.com/package/gulp-sass-glob
+// List individual files if a specific order is needed
+
+// 00_abstracts
+@import "00_abstracts/*.scss";
+
+// 01_vendors
+@import "01_vendors/*.scss";
+
+// 02_components
+@import "02_components/*.scss";
+
+// 03_sections
+@import "03_sections/*.scss";

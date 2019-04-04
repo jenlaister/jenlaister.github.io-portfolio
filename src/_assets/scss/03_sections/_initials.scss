@@ -1,0 +1,10 @@
+#initial-load {
+  background-color: $navy-blue;
+  height: 100%;
+  &.push-up {
+    height: 15%;
+    background-color: $white;
+    transition: .5s ease-out;
+    transform: translateY(-935px);
+  }
+}
